@@ -8,6 +8,7 @@ class RsSockeTApplicationTests {
 
 	@Test
 	void contextLoads() {
+		System.out.println("run......................");
 	}
 
 }
