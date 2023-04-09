@@ -11,6 +11,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class RsSocketApplication {
 
 	public static void main(String[] args) {
+		System.out.println("=========================================RsSocketApplication====================================");
 		SpringApplication.run(RsSocketApplication.class, args);
 	}
 
