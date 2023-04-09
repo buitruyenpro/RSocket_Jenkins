@@ -12,13 +12,6 @@ public class RsSocketApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(RsSocketApplication.class, args);
-
-		RSocketServer socketServer = RSocketServer.create(new SocketAcceptorImpl());
-		CloseableChannel closeableChannel = socketServer.bindNow(TcpServerTransport.create(6565));
-
-		// keep listening
-		closeableChannel.onClose().block();
-
 	}
 
 }
