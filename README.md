@@ -1,2 +1,0 @@
-# RSocket_Jenkins
-RSocket
